@@ -1,0 +1,42 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../vendor/fonts/inter.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_disabled/header__lang-link_disabled.css);
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/launch/launch.css);
+@import url(../blocks/launch/__title/launch__title.css);
+@import url(../blocks/launch/__subtitle/launch__subtitle.css);
+@import url(../blocks/launch/__signature/launch__signature.css);
+@import url(../blocks/launch/__image-container/launch__image-container.css);
+@import url(../blocks/launch/__image-background/launch__image-background.css);
+
+@import url(../blocks/motivation/motivation.css);
+@import url(../blocks/motivation/__title/motivation__title.css);
+@import url(../blocks/motivation/__text/motivation__text.css);
+@import url(../blocks/motivation/__list/motivation__list.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__paragraph/cards__paragraph.css);
+@import url(../blocks/cards/__link-heading/cards__link-heading.css);
+@import url(../blocks/cards/__link/cards__link.css);
+@import url(../blocks/cards/__link-url/cards__link-url.css);
+@import url(../blocks/cards/__image/cards__image.css);
+
+@import url(../blocks/image-conclusion/image-conclusion.css);
+@import url(../blocks/image-conclusion/__title/image-conclusion__title.css);
+@import url(../blocks/image-conclusion/__subtitle/image-conclusion__subtitle.css);
+@import url(../blocks/image-conclusion/__link/image-conclusion__link.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+

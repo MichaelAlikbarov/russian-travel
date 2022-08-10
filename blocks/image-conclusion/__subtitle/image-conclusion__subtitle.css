@@ -1,0 +1,23 @@
+.image-conclusion__subtitle {
+  width: 360px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  display: inline-block;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 32px auto 245px;
+  padding: 0;
+}
+
+@media (max-width: 320px) {
+  .image-conclusion__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px auto 33px;
+  }
+}

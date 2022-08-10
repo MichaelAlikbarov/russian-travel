@@ -1,0 +1,25 @@
+.cards__link-heading {
+  width: 456px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+
+  color: #AAAAAA;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .cards__link-heading {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cards__link-heading {
+    max-width: 288px;
+  }
+}

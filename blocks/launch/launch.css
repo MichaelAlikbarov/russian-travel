@@ -1,0 +1,31 @@
+.launch {
+  max-width: 984px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .launch {
+    max-width: 962px;
+  }
+}
+
+@media (max-width: 768px) {
+  .launch {
+    max-width: 768px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .launch {
+    max-width: 320px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,23 @@
+.launch__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 720px;
+
+  margin: 0 auto;
+  padding-top: 56px;
+}
+
+@media (max-width: 320px) {
+  .launch__title {
+    width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  margin-top: 48px;
+  padding-top: 0px;
+  }
+}

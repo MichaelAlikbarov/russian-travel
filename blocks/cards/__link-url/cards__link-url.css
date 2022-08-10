@@ -1,0 +1,16 @@
+.cards__link-url {
+  width: 456px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  text-decoration-line: underline;
+
+  color: #FFFFFF;
+  align-self: end;
+  margin-top: 12px;
+}
