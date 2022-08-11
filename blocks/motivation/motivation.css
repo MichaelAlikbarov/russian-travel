@@ -1,5 +1,5 @@
 .motivation {
-  width: 690px;
+  max-width: 690px;
   margin-top: 92px;
   margin-left: 148px;
 }
@@ -21,7 +21,7 @@
 
 @media (max-width: 320px) {
   .motivation {
-    width: 288px;
+    max-width: 288px;
     margin-top: 64px;
     margin-left: 16px;
   }

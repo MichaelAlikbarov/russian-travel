@@ -20,6 +20,7 @@
 @import url(../blocks/motivation/__list/motivation__list.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__photo-item/photo-grid__photo-item.css);
 
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);

@@ -3,10 +3,14 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
+
   margin-left: 48px;
   margin-right: 48px;
   margin-bottom: 52px;
+  max-width: 1184px;
+
   object-fit: cover;
+  overflow: hidden;
 }
 
 @media (max-width: 1024px) {
