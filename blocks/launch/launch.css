@@ -3,14 +3,12 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  flex-shrink: 1;
-  justify-content: center;
   margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
   .launch {
-    max-width: 962px;
+    max-width: 928px;
   }
 }
 
@@ -25,7 +23,5 @@
 @media (max-width: 320px) {
   .launch {
     max-width: 320px;
-    margin-left: 0;
-    margin-right: 0;
   }
 }

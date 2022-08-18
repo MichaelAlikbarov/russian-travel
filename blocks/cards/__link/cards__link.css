@@ -1,5 +1,5 @@
 .cards__link {
-  width: 456px;
+  max-width: 456px;
 
   padding: 0;
   align-self: end;

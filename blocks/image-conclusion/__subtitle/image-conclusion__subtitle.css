@@ -14,6 +14,12 @@
   padding: 0;
 }
 
+@media (max-width: 1024px) {
+  .image-conclusion__subtitle {
+    margin-bottom: 195px;
+  }
+}
+
 @media (max-width: 320px) {
   .image-conclusion__subtitle {
     max-width: 288px;

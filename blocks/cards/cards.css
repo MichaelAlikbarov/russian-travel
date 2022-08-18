@@ -1,7 +1,7 @@
 .cards {
   display: grid;
   max-width: 984px;
-  margin: 0 48px 0 48px;
+  margin: 0 148px 0 148px;
   box-sizing: border-box;
   padding: 0;
 }
@@ -9,7 +9,7 @@
 @media (max-width: 1024px) {
   .cards {
     max-width: 928px;
-    margin: 0 24px 0 24px;
+    margin: 0 48px 0 48px;
   }
 }
 

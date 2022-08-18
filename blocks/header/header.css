@@ -1,12 +1,8 @@
 .header {
   max-width: 1184px;
-  margin-top: 28px;
-  margin-right: 48px;
-  margin-left: 48px;
-  margin-bottom: 0;
-
+  margin: 28px 48px 0 48px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 

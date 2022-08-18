@@ -1,6 +1,12 @@
 .launch__image-background {
   object-fit: cover;
-  width: 100%;
-  height: 100%;
+  width: 984px;
+  min-height: 615px;
 }
 
+@media (max-width: 1024px) {
+  .launch__image-background {
+    max-width: 928px;
+    min-height: 580px;
+}
+}

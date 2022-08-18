@@ -1,11 +1,12 @@
 @import url(../vendor/normalize.css);
-@import url(../blocks/page/page.css);
 @import url(../vendor/fonts/inter.css);
+@import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_disabled/header__lang-link_disabled.css);
+@import url(../blocks/header/__lang-link/_enabled/header__lang-link_enabled.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/header/__list-language/header__list-language.css);
 
 @import url(../blocks/launch/launch.css);
 @import url(../blocks/launch/__title/launch__title.css);
@@ -18,6 +19,7 @@
 @import url(../blocks/motivation/__title/motivation__title.css);
 @import url(../blocks/motivation/__text/motivation__text.css);
 @import url(../blocks/motivation/__list/motivation__list.css);
+@import url(../blocks/motivation/__number/motivation__number.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__photo-item/photo-grid__photo-item.css);
@@ -25,6 +27,7 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__text/cards__text.css);
 @import url(../blocks/cards/__paragraph/cards__paragraph.css);
 @import url(../blocks/cards/__link-heading/cards__link-heading.css);
 @import url(../blocks/cards/__link/cards__link.css);

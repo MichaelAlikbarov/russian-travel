@@ -1,15 +1,19 @@
 .cards__paragraph {
   max-width: 484px;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
   color: #FFFFFF;
-  padding-bottom: 26px;
+  padding-bottom: 27px;
 
   justify-self: start;
   margin: 0;
+}
+
+.cards__paragraph:last-child {
+  padding: 0;
 }
 
 @media (max-width: 1024px) {
