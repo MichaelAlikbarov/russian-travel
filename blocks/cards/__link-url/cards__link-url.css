@@ -12,3 +12,7 @@
   color: #FFFFFF;
   margin-top: 12px;
 }
+
+.cards__link-url:hover {
+  cursor: url(/images/mycursor.svg), auto;
+}

@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+.footer__menu-link:hover {
+  cursor: url(/images/mycursor.svg), auto;
+}
+
 @media (max-width: 768px) {
   .footer__menu-link {
 

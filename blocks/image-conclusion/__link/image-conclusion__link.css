@@ -3,4 +3,7 @@
   margin: 0;
 }
 
+.image-conclusion__link:hover {
+  cursor: url(/images/mycursor.svg), auto;
+}
 
