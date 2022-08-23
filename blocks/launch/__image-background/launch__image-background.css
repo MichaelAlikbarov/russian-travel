@@ -8,5 +8,19 @@
   .launch__image-background {
     max-width: 928px;
     min-height: 580px;
+  }
 }
+
+@media (max-width: 768px) {
+  .launch__image-background {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 320px) {
+  .launch__image-background {
+    max-width: 320px;
+    min-height: 200px;
+  }
 }

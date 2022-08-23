@@ -53,6 +53,7 @@
   .image-conclusion {
     max-width: 768px;
     min-height: 480px;
+    margin-top: 90px;
   }
 }
 
@@ -60,5 +61,6 @@
   .image-conclusion {
     max-width: 320px;
     min-height: 200px;
+    margin-top: 66px;
   }
 }

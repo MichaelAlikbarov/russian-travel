@@ -1,4 +1,5 @@
 .cards__paragraph {
+  display: block;
   max-width: 484px;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
@@ -8,7 +9,6 @@
   color: #FFFFFF;
   padding-bottom: 27px;
 
-  justify-self: start;
   margin: 0;
 }
 
@@ -26,13 +26,13 @@
   .cards__paragraph {
     max-width: 352px;
     font-size: 16px;
+    padding-bottom: 25px;
   }
 }
 
 @media (max-width: 320px) {
   .cards__paragraph {
     max-width: 288px;
-    font-size: 16px;
     margin-left: 16px;
     margin-right: 16px;
   }

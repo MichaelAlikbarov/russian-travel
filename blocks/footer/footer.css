@@ -15,7 +15,7 @@
 @media (max-width: 768px) {
   .footer {
     max-width: 720px;
-    margin-top: 88px;
+    margin: 88px 24px 24px 24px;
   }
 }
 
@@ -24,9 +24,7 @@
     max-width: 186px;
     margin-left: 16px;
     margin-bottom: 24px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 15px;
+    flex-direction: column;
     gap: 48px;
   }
-
 }

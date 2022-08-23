@@ -6,17 +6,18 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-  letter-spacing: 1;
 
   color: #AAAAAA;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+  padding-bottom: 12px;
 }
 
 @media (max-width: 768px) {
   .cards__link-heading {
     max-width: 352px;
+
   }
 }
 

@@ -20,6 +20,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .image-conclusion__subtitle {
+    margin-bottom: 115px;
+  }
+}
+
 @media (max-width: 320px) {
   .image-conclusion__subtitle {
     max-width: 288px;

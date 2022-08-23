@@ -5,8 +5,7 @@
 
 @media (max-width: 320px) {
   .footer__menu {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, auto);
+    flex-direction: column;
     gap: 32px;
   }
 }

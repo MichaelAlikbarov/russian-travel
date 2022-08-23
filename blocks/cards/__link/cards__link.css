@@ -8,6 +8,7 @@
 @media (max-width: 768px) {
   .cards__link {
     max-width: 352px;
+    align-self: center;
   }
 }
 

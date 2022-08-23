@@ -12,14 +12,16 @@
   padding: 0;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 768px) {
   .motivation__list {
     max-width: 720px;
+    margin-bottom: 88px;
   }
 }
 
 @media (max-width: 320px) {
   .motivation__list {
     max-width: 288px;
+    margin: 0;
   }
 }
