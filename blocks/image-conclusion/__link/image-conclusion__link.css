@@ -4,6 +4,6 @@
 }
 
 .image-conclusion__link:hover {
-  cursor: url(/images/mycursor.svg), auto;
+  cursor: url(../../../images/mycursor.svg), auto;
 }
 
