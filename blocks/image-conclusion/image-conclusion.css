@@ -49,8 +49,11 @@
 }
 
 @media (max-width: 560px) {
-  max-width: 100%;
-  min-height: 100%;
+  .image-conclusion {
+    max-width: 100%;
+    min-height: 100%;
+  }
+
 }
 
 @media (max-width: 320px) {
