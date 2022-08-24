@@ -1,7 +1,8 @@
 .launch__image-background {
   object-fit: cover;
-  width: 984px;
+  max-width: 984px;
   min-height: 615px;
+
 }
 
 @media (max-width: 1024px) {
@@ -11,7 +12,14 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 940px) {
+  .launch__image-background {
+    max-width: 100%;
+    min-height: 100%;
+  }
+}
+
+/* @media (max-width: 768px) {
   .launch__image-background {
     max-width: 768px;
     min-height: 480px;
@@ -23,4 +31,4 @@
     max-width: 320px;
     min-height: 200px;
   }
-}
+} */

@@ -15,6 +15,7 @@
 
 .header__lang-link:hover {
   cursor: url(../../../images/mycursor.svg), auto;
+  opacity: 0.8;
 }
 
 @media (max-width: 320px) {

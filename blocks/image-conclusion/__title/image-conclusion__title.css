@@ -1,6 +1,6 @@
 .image-conclusion__title {
   width: 560px;
-
+  display: block;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -25,11 +25,17 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 560px) {
   .image-conclusion__title {
-    max-width: 288px;
+    max-width: 100%;
     font-size: 32px;
     line-height: 1.09;
     margin: 33px auto 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .image-conclusion__title {
+    max-width: 288px;
   }
 }

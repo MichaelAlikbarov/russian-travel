@@ -18,12 +18,6 @@
   content: '\00A9' '\00A0';
 }
 
-@media (max-width: 1024px) {
-  .footer__copyright {
-
-  }
-}
-
 @media (max-width: 768px) {
   .footer__copyright {
     line-height: 16px;
@@ -32,10 +26,7 @@
 
 @media (max-width: 320px) {
   .footer__copyright {
-    max-width: 186px;
     text-align: left;
     line-height: 14px;
-    margin: 0;
-    padding: 0;
   }
 }

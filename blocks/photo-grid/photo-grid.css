@@ -7,8 +7,6 @@
   margin-right: 48px;
   margin-bottom: 92px;
   max-width: 1184px;
-
-  object-fit: cover;
 }
 
 @media (max-width: 1024px) {

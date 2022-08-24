@@ -15,4 +15,5 @@
 
 .cards__link-url:hover {
   cursor: url(../../../images/mycursor.svg), auto;
+  opacity: 0.8;
 }

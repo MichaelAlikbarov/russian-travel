@@ -14,15 +14,14 @@
 
 @media (max-width: 768px) {
   .launch {
-    max-width: 768px;
-    margin-left: 0;
-    margin-right: 0;
+    max-width: 100%;
+    padding: 0;
   }
 }
 
 @media (max-width: 320px) {
   .launch {
-    max-width: 320px;
+    /* max-width: 320px; */
     margin-top: 40px;
   }
 }

@@ -19,12 +19,20 @@
   }
 }
 
+@media (max-width: 540px) {
+  .footer {
+    max-width: 200px;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 320px) {
   .footer {
     max-width: 186px;
+    margin-top: 64px;
     margin-left: 16px;
     margin-bottom: 24px;
-    flex-direction: column;
+
     gap: 48px;
   }
 }

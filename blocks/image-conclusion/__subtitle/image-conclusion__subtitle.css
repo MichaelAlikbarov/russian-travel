@@ -1,7 +1,7 @@
 .image-conclusion__subtitle {
   max-width: 360px;
-
-  font-family: 'Inter';
+  display: block;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -31,6 +31,6 @@
     max-width: 288px;
     font-size: 14px;
     line-height: 1.14;
-    margin: 16px auto 33px;
+    margin: 16px auto 33px auto;
   }
 }
