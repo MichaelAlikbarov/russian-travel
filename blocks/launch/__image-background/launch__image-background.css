@@ -2,33 +2,11 @@
   object-fit: cover;
   max-width: 984px;
   min-height: 615px;
-
 }
 
 @media (max-width: 1024px) {
-  .launch__image-background {
-    max-width: 928px;
-    min-height: 580px;
-  }
-}
-
-@media (max-width: 940px) {
   .launch__image-background {
     max-width: 100%;
     min-height: 100%;
   }
 }
-
-/* @media (max-width: 768px) {
-  .launch__image-background {
-    max-width: 768px;
-    min-height: 480px;
-  }
-}
-
-@media (max-width: 320px) {
-  .launch__image-background {
-    max-width: 320px;
-    min-height: 200px;
-  }
-} */

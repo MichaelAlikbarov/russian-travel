@@ -17,3 +17,15 @@
   cursor: url(../../../images/mycursor.svg), auto;
   opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+  .cards__link-url {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 380px) {
+  .cards__link-url {
+    max-width: 288px;
+  }
+}
