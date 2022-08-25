@@ -24,6 +24,12 @@
   }
 }
 
+@media (max-width: 638px) {
+  .footer__copyright {
+    text-align: left;
+  }
+}
+
 @media (max-width: 320px) {
   .footer__copyright {
     text-align: left;

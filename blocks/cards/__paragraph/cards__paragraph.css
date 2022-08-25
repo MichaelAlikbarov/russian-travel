@@ -13,7 +13,7 @@
 }
 
 .cards__paragraph:last-child {
-  padding: 0;
+  padding-bottom: 0;
 }
 
 @media (max-width: 1024px) {
@@ -27,10 +27,12 @@
     max-width: 352px;
     font-size: 16px;
     padding-bottom: 25px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
   .cards__paragraph {
     max-width: 288px;
     margin-left: 16px;

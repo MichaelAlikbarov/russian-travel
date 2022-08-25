@@ -15,7 +15,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
   .motivation__title {
     max-width: 288px;
     font-size: 32px;
