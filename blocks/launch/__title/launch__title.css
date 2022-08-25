@@ -19,14 +19,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .launch__title {
-    max-width: 90%;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 @media (max-width: 740px) {
   .launch__title {
     font-size: 40px;
