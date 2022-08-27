@@ -1,7 +1,7 @@
 .image-conclusion {
   max-width: 1184px;
   min-height: 740px;
-  margin: 12px 48px 0 48px;
+  margin-top: 12px;
   background-image: url('../../images/__background_na_baikal.png');
 
   background-size: cover;
@@ -35,8 +35,8 @@
   .image-conclusion {
     max-width: 1024px;
     min-height: 640px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -45,21 +45,17 @@
     max-width: 768px;
     min-height: 480px;
     margin-top: 90px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
-@media (max-width: 560px) {
-  .image-conclusion {
-    max-width: 560px;
-    min-height: 280px;
-  }
-
-}
-
-@media (max-width: 380px) {
+@media (max-width: 767px) and (min-width: 320px) {
   .image-conclusion {
     margin-top: 66px;
     max-width: 320px;
     min-height: 200px;
   }
+
 }
+

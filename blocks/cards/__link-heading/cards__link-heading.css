@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 568px) {
   .cards__link-heading {
     max-width: 288px;
   }

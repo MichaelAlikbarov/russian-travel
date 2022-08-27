@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 568px) and (min-width: 320px) {
   .cards {
     max-width: 320px;
     row-gap: 50px;

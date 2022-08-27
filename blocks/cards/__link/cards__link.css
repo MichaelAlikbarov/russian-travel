@@ -1,6 +1,5 @@
 .cards__link {
   max-width: 456px;
-
   padding: 0;
   align-self: end;
 }
@@ -12,7 +11,7 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 320px) {
   .cards__link {
     max-width: 288px;
     margin-left: 16px;

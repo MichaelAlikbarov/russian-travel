@@ -1,0 +1,32 @@
+.content {
+  margin: 0 auto;
+}
+
+@media (max-width:1280px) {
+  .content {
+    max-width: 1184px;
+  }
+}
+
+@media (max-width: 1279px) and (min-width: 1024px)  {
+  .content {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .content {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .content {
+    max-width: 320px;
+  }
+}
+
+
+
+
+

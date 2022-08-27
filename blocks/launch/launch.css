@@ -3,12 +3,14 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0 148px;
 }
 
 @media (max-width: 1024px) {
   .launch {
     max-width: 928px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 
@@ -23,5 +25,7 @@
   .launch {
     max-width: 320px;
     margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

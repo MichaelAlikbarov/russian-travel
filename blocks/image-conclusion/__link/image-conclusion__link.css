@@ -1,6 +1,7 @@
 .image-conclusion__link {
   text-decoration: none;
   margin: 0;
+  display: block;
 }
 
 .image-conclusion__link:hover {
