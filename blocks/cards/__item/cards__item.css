@@ -13,9 +13,8 @@
     display: grid;
     grid-template-columns:  auto 1fr;
     row-gap: 48px;
-    column-gap: 40px;
-    padding-bottom: 80px;
     column-gap: 28px;
+    padding-bottom: 80px;
     margin: 0;
     padding: 0;
   }
