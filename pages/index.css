@@ -1,48 +1,48 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/inter.css);
-@import url(../blocks/page/page.css);
+@import "./vendor/normalize.css";
+@import "../vendor/fonts/inter.css";
+@import "../blocks/page/page.css";
 
-@import url(../blocks/content/content.css);
+@import "../blocks/header/header.css";
+@import "../blocks/header/__list-language/header__list-language.css";
+@import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/header/__lang-link/_enabled/header__lang-link_enabled.css";
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_enabled/header__lang-link_enabled.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/header/__list-language/header__list-language.css);
+@import "../blocks/logo/logo.css";
 
-@import url(../blocks/launch/launch.css);
-@import url(../blocks/launch/__title/launch__title.css);
-@import url(../blocks/launch/__subtitle/launch__subtitle.css);
-@import url(../blocks/launch/__signature/launch__signature.css);
-@import url(../blocks/launch/__image-container/launch__image-container.css);
-@import url(../blocks/launch/__image-background/launch__image-background.css);
+@import "../blocks/content/content.css";
 
-@import url(../blocks/motivation/motivation.css);
-@import url(../blocks/motivation/__title/motivation__title.css);
-@import url(../blocks/motivation/__text/motivation__text.css);
-@import url(../blocks/motivation/__list/motivation__list.css);
-@import url(../blocks/motivation/__number/motivation__number.css);
+@import "../blocks/launch/launch.css";
+@import "../blocks/launch/__image-background.css/launch__image-background.css";
+@import "../blocks/launch/__image-container.css/launch__image-conteiner.css";
+@import "../blocks/launch/__title/launch__title.css";
+@import "../blocks/launch/__subtitle/launch__subtitle.css";
+@import "../blocks/launch/__signature/launch__signature.css";
 
-@import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__photo-item/photo-grid__photo-item.css);
+@import "../blocks/motivation/motivation.css";
+@import "../blocks/motivation/__list/motivation__list.css";
+@import "../blocks/motivation/__number/motivation__number.css";
+@import "../blocks/motivation/__text/motivation__text.css";
+@import "../blocks/motivation/__title/motivation__title.css";
 
-@import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/__item/cards__item.css);
-@import url(../blocks/cards/__title/cards__title.css);
-@import url(../blocks/cards/__text/cards__text.css);
-@import url(../blocks/cards/__paragraph/cards__paragraph.css);
-@import url(../blocks/cards/__link-heading/cards__link-heading.css);
-@import url(../blocks/cards/__link/cards__link.css);
-@import url(../blocks/cards/__link-url/cards__link-url.css);
-@import url(../blocks/cards/__image/cards__image.css);
+@import "../blocks/photo-grid/photo-grid.css";
+@import "../blocks/photo-grid/__photo-item/photo-grid__photo-item.css";
 
-@import url(../blocks/image-conclusion/image-conclusion.css);
-@import url(../blocks/image-conclusion/__title/image-conclusion__title.css);
-@import url(../blocks/image-conclusion/__subtitle/image-conclusion__subtitle.css);
-@import url(../blocks/image-conclusion/__link/image-conclusion__link.css);
+@import "../blocks/cards/cards.css";
+@import "../blocks/cards/__item/cards__item.css";
+@import "../blocks/cards/__image/cards__image.css";
+@import "../blocks/cards/__link/cards__link.css";
+@import "../blocks/cards/__title/cards__title.css";
+@import "../blocks/cards/__link-heading/cards__link-heading.css";
+@import "../blocks/cards/__link-url/cards__link-url.css";
+@import "../blocks/cards/__text/cards__text.css";
+@import "../blocks/cards/__paragraph/cards__paragraph.css";
 
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__menu/footer__menu.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import "../blocks/image-conclusion/image-conclusion.css";
+@import "../blocks/image-conclusion/__link/image-conclusion__link.css";
+@import "../blocks/image-conclusion/__title/image-conclusion__title.css";
+@import "../blocks/image-conclusion/__subtitle/image-conclusion__subtitle.css";
 
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__menu/footer__menu.css";
+@import "../blocks/footer/__menu-link/footer__menu-link.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";

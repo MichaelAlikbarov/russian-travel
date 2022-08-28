@@ -15,14 +15,14 @@
   letter-spacing: 2px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .cards__link-heading {
     max-width: 352px;
 
   }
 }
 
-@media (max-width: 568px) {
+@media (min-width: 380px) {
   .cards__link-heading {
     max-width: 288px;
   }

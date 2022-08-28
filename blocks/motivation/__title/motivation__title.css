@@ -1,25 +1,33 @@
 .motivation__title {
-  max-width: 690px;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 54px;
-  line-height: 1.07;
+  line-height: 109%;
   color: #FFFFFF;
   margin-bottom: 40px;
 }
 
-@media (max-width: 768px) {
-  .motivation__title {
-    max-width: 720px;
-  }
-}
-
-@media (max-width: 380px) {
+@media (min-width: 320px) {
   .motivation__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 1.09;
     margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .motivation__title {
+    max-width: 720px;
+    font-size: 54px;
+    line-height: 1.07;
+  }
+}
+
+@media (min-width: 1024px) {
+  .motivation__title {
+    max-width: 690px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
   }
 }

@@ -1,28 +1,29 @@
-.content {
-  margin:  auto;
+.launch__image-container {
+  margin: 0 auto;
+  padding: 0;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .content {
+  .launch__image-container {
     max-width: 320px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .content {
-    max-width: 720px;
+  .launch__image-container {
+    max-width: 768px;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-  .content {
+  .launch__image-container {
     max-width: 928px;
   }
 }
 
 @media (min-width:1280px) {
-  .content {
-    max-width: 1184px;
-    margin: 0 48px;
+  .launch__image-container {
+    max-width: 984px;
+    margin: 0 148px;
   }
 }
