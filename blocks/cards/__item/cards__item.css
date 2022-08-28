@@ -24,7 +24,7 @@
 
 @media (min-width: 1024px) {
   .cards__item {
-    max-width: : 928px;
+    max-width: 928px;
     column-gap: 32px;
   }
 }
