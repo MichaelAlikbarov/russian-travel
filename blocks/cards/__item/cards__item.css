@@ -1,18 +1,19 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
   .cards__item {
-    margin-bottom: 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+    padding-bottom: 50px;
   }
 }
 
 @media (min-width: 768px) {
   .cards__item {
-    display: grid;
     grid-template-columns:  auto 1fr;
     row-gap: 48px;
     column-gap: 28px;
-    padding-bottom: 80px;
     margin: 0;
-    padding: 0;
+    padding-bottom: 73px;
   }
 }
 
@@ -20,11 +21,13 @@
   .cards__item {
     max-width: 928px;
     column-gap: 32px;
+    padding-bottom: 80px;
   }
 }
 
 @media (min-width: 1280px) {
   .cards__item {
     max-width: 984px;
+    column-gap: 40px;
   }
 }

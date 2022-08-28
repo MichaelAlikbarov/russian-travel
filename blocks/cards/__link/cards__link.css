@@ -1,19 +1,20 @@
-/* .cards__link {
-  max-width: 456px;
-  padding: 0;
-  align-self: end;
-} */
-
-@media (min-width: 320px) and (max-width: 797px) {
+@media (min-width: 320px) {
   .cards__link {
     max-width: 288px;
-    margin-left: 16px;
-    margin-bottom: 32px;
+    padding-left: 16px;
   }
 }
 @media (min-width: 768px) {
   .cards__link {
     max-width: 352px;
     align-self: center;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cards__link {
+    max-width: 456px;
+    align-self: end;
   }
 }

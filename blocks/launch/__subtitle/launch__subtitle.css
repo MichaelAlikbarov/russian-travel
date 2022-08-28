@@ -6,13 +6,12 @@
   line-height: 120%;
   text-align: center;
   color: #FFFFFF;
-  margin: 0 auto 56px auto;
+  margin: 0 auto 40px auto;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
   .launch__subtitle {
     max-width: 288px;
-    margin-bottom: 40px;
   }
 }
 

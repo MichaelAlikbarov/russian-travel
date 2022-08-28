@@ -4,13 +4,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1;
 
   text-align: right;
   color: #FFFFFF;
 
   display: block;
-  margin: 0;
   padding: 0;
 }
 
@@ -18,16 +17,17 @@
   content: '\00A9' '\00A0';
 }
 
-@media (max-width: 768px) {
-  .footer__copyright {
-    line-height: 16px;
-  }
-}
-
-@media (max-width: 568px) and (min-width: 320px) {
+@media (min-width: 320px) {
   .footer__copyright {
     text-align: left;
-    line-height: 14px;
+    margin-top: 48px;
   }
 }
 
+@media (min-width: 768px) {
+  .footer__copyright {
+    max-width: 186px;
+    line-height: 1.14;
+    margin: 0;
+  }
+}

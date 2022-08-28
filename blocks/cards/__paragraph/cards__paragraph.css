@@ -17,18 +17,12 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .cards__paragraph {
     max-width: 288px;
-    /* margin-top: 0;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 0; */
   }
 }
 
 @media (min-width: 768px) {
   .cards__paragraph {
     max-width: 352px;
-    font-size: 16px;
-
     padding-left: 0;
     padding-right: 0;
     margin-right: 24px;
@@ -38,6 +32,7 @@
 @media (min-width: 1024px) {
   .cards__paragraph {
     max-width: 456px;
+    font-size: 18px;
   }
 }
 

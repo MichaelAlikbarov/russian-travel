@@ -9,7 +9,7 @@
   margin: 0 auto 16px auto;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
   .launch__title {
     max-width: 288px;
   }
@@ -20,6 +20,6 @@
     max-width: 720px;
     font-size: 96px;
     line-height: 104%;
-    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }

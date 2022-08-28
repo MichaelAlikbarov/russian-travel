@@ -3,28 +3,3 @@
   flex-direction: column;
   margin: 0;
 }
-
-/* @media (min-width: 320px) and (max-width: 767px) {
-  .launch {
-    max-width: 288px;
-  }
-} */
-
-/* @media (min-width: 768px) and (max-width: 1023px) {
-  .launch {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .launch {
-    max-width: 928px;
-  }
-}
-
-@media (min-width:1280px) {
-  .launch {
-    max-width: 1184px;
-    margin: 28px 48px 0 48px;
-  }
-} */

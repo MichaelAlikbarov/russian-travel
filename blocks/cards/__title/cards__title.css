@@ -1,21 +1,19 @@
 .cards__title {
-  max-width: 460px;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
+  font-size: 32px;
+  line-height: 1.09;
   color: #FFFFFF;
 
   padding: 0;
+  margin: 0;
 }
 
 @media (min-width: 320px) {
   .cards__title {
     max-width: 288px;
-    font-size: 32px;
-    margin-left: 16px;
-    margin-bottom: 32px;
+    padding-left: 16px;
   }
 }
 
@@ -30,5 +28,13 @@
 @media (min-width: 1024px) {
   .cards__title {
     max-width: 440px;
+    font-size: 72px;
+    line-height: 1.06;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cards__title {
+    max-width: 460px;
   }
 }

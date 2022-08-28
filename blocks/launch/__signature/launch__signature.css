@@ -14,15 +14,20 @@
   padding-top: 8px;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
   .launch__signature {
     padding-left: 16px;
-    padding-top: 6px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) {
   .launch__signature {
     padding-left: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .launch__signature {
+    padding-left: 0;
   }
 }

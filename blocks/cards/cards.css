@@ -1,7 +1,7 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
   .cards {
     max-width: 320px;
-    margin-bottom: 50px;
+    margin-bottom: 66px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -12,7 +12,7 @@
     max-width: 720px;
     margin-left: 24px;
     margin-right: 24px;
-    margin-bottom: 73px;
+    margin-bottom: 90px;
     padding: 0;
   }
 }
@@ -20,13 +20,14 @@
 @media (min-width: 1024px) {
   .cards {
     max-width: 928px;
-    margin: 0 48px 80px 48px;
+    margin: 0 48px 92px 48px;
   }
 }
 
 @media (min-width: 1280px) {
   .cards {
     max-width: 984px;
-    margin: 0 48px 80px 48px;
+    margin-left: 148px;
+    margin-right: 148px;
   }
 }
