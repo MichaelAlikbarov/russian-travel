@@ -1,4 +1,4 @@
-@import "./vendor/normalize.css";
+@import "../vendor/normalize.css";
 @import "../vendor/fonts/inter.css";
 @import "../blocks/page/page.css";
 
@@ -12,8 +12,8 @@
 @import "../blocks/content/content.css";
 
 @import "../blocks/launch/launch.css";
-@import "../blocks/launch/__image-background.css/launch__image-background.css";
-@import "../blocks/launch/__image-container.css/launch__image-conteiner.css";
+@import "../blocks/launch/__image-background/launch__image-background.css";
+@import "../blocks/launch/__image-container/launch__image-conteiner.css";
 @import "../blocks/launch/__title/launch__title.css";
 @import "../blocks/launch/__subtitle/launch__subtitle.css";
 @import "../blocks/launch/__signature/launch__signature.css";
