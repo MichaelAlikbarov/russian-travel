@@ -18,13 +18,14 @@
 @media (min-width: 1024px) {
   .launch__image-container {
     max-width: 928px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (min-width:1280px) {
   .launch__image-container {
     max-width: 984px;
-    margin-left: auto;
-    margin-right: auto;
+
   }
 }
