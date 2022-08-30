@@ -6,13 +6,6 @@
   width: 100%;
 }
 
-/* @media (min-width: 320px) {
-  .cards__image {
-    width: 320px;
-    height: 320px;
-  }
-}
-
 @media (min-width: 768px) {
   .cards__image {
     width: 340px;
@@ -31,4 +24,4 @@
     width: 460px;
     height: 460px;
   }
-} */
+}
